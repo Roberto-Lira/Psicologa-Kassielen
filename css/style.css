@@ -604,7 +604,7 @@ section.contato__container{
 		position: absolute;
 		top: 44px;
 		right: 0;
-		width: 200px;
+		width: 240px;
 		background-color: #F1FFFB;
 		display: inline-block;
 		text-align: center;
@@ -613,7 +613,7 @@ section.contato__container{
 
 	.menu-mobile > ul > li{
 		border-bottom: 1px solid #548799;
-		padding: 8px;
+		padding: 15px;
 	}
 
 	.menu-mobile > ul > li:first-child{
@@ -656,6 +656,14 @@ section.contato__container{
 
 	.depoimento-single{
 		width: 100%;
+	}
+
+	.depoimento-single:nth-child(2){
+		border-right: 1px dashed white;
+	}
+
+	.depoimento-single:nth-child(3){
+		border-right: 1px dashed white;
 	}
 
 	.depoimento-single:nth-child(4){
