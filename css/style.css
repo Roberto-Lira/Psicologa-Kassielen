@@ -41,6 +41,10 @@ body{
 	clear:both;
 }
 
+.hide{
+	display:none;
+}
+
 /* HEADER DESKTOP */
 
 header{
@@ -186,6 +190,10 @@ section.kassielen{
 
 section.kassielen > .container{
 	/*background-color: yellow;*/
+}
+
+section.kassielen > .container > .flex{
+	display: flex;
 }
 
 .titulo-container{
@@ -534,6 +542,15 @@ section.contato__container{
 	margin-bottom: 20px;
 }
 
+.contato__mensagem > .email{
+	margin-top: 1.5em;
+	font-style:italic;
+}
+
+.email span{
+	font-style: italic;
+}
+
 /* RESPONSIVO */
 
 @media screen and (min-width: 1024px){
@@ -689,6 +706,20 @@ section.contato__container{
 		height: 200px;
 	}
 } 
+
+@media screen and (max-width: 650px){
+
+	/* RESPONSIVO SECTION KASSIELEN */
+
+	.foto{
+		height: 100%;
+	}
+
+	.apresentacao-container{
+		margin-top: 1.5em;
+	}
+
+}
 
 @media screen and (max-width: 580px){
 
