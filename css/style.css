@@ -707,16 +707,36 @@ section.contato__container{
 	}
 } 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 660px){
 
 	/* RESPONSIVO SECTION KASSIELEN */
 
+	.foto-container{
+		float: none;
+		width: 100%;
+	}
+
 	.foto{
-		height: 100%;
+		background-image: url('../images/fotokassielen2.jpeg');
+		background-size: contain;
+		background-position: center;
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		margin: 0 auto;
+		margin-bottom: 1em;
 	}
 
 	.apresentacao-container{
 		margin-top: 1.5em;
+		float: none;
+		width: 100%;
+	}
+
+	.apresentacao-container p{
+		text-align: center;
+		margin-left: 0;
+		margin: 1em 2% 0 2%;
 	}
 
 }
