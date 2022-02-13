@@ -630,7 +630,6 @@ section.contato__container{
 
 	.menu-mobile > ul > li{
 		border-bottom: 1px solid #548799;
-		padding: 15px;
 	}
 
 	.menu-mobile > ul > li:first-child{
@@ -641,6 +640,9 @@ section.contato__container{
 		text-decoration: none;
 		color: #548799;
 		font-weight: normal;
+
+		display: block;
+		padding: 15px;
 	}
 
 	#selecionado a:before{
