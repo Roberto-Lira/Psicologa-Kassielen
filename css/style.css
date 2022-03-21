@@ -49,6 +49,7 @@ body{
 
 header{
 	background-color: #F1FFFB;
+	background-color: #1B1B1B;
 	padding: 8px 2%;
 	position: fixed;
 	width: 96%;
@@ -106,7 +107,7 @@ header{
 /* SECTION BANNER PRINCIPAL */
 
 .banner-principal{
-	background-image: url('../images/bg-principal.jpg');
+	background-image: url('../images/m3.jpg');
 	height: 400px;
 	background-size: cover;
 	background-position: center-top;
@@ -162,6 +163,7 @@ header{
 
 .banner-secundario{
 	background-color: #FFB8B3;
+	background-color: #737373;
 	padding: 15px;
 	text-align: center;
 }
@@ -185,6 +187,7 @@ header{
 
 section.kassielen{
 	background-color: #FAD9FF;
+	background-color: #d9d9d9;
 	padding: 25px 2% 25px 2%;
 }
 
@@ -209,6 +212,7 @@ section.kassielen > .container > .flex{
 
 .kassielen > .container > .titulo-container > h2{
 	color: #7D6C80;
+	color: #1b1b1b;
 }
 
 .titulo-container > div{
@@ -219,6 +223,7 @@ section.kassielen > .container > .flex{
 
 .kassielen > .container > .titulo-container > div{
 	border-color: #7D6C80;
+	border-color: #1b1b1b;
 }
 
 .foto-container{
@@ -245,12 +250,14 @@ section.kassielen > .container > .flex{
 	font-size: 16px;
 	line-height: 1.25em;
 	color: #7D6C80;
+	color: #1b1b1b;
 }
 
 /* SECTION SERVIÇOS */
 
 section.servicos{
 	background-color: white;
+	background-color: #f8f8ff;
 	padding: 25px 2% 25px 2%;
 }
 
@@ -271,6 +278,7 @@ section.servicos{
 	display: inline-block;
 	vertical-align: top;
 	border: 1px solid white;
+	border: 1px solid #f8f8ff;
 	height: 90px;
 	width: 90px;
 	border-radius: 50%;
@@ -284,6 +292,7 @@ section.servicos{
 	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	color: #FFB8B3;
+	color: #A6FFFD;
 }
 
 .servicos-single > .text-description{
@@ -296,6 +305,7 @@ section.servicos{
 	font-size: 19px;
 	font-weight: normal;
 	color: #333;
+	color: #1b1b1b;
 	margin-bottom: 10px;
 }
 
@@ -305,6 +315,7 @@ section.servicos{
 	font-weight: lighter;
 	text-align: justify;
 	color: #333;
+	color: #1b1b1b;
 }
 
 /* SECTION DEPOIMENTOS */
@@ -351,6 +362,7 @@ section.depoimentos{
 
 footer.one{
 	background-color: #FFB8B3;
+	background-color: #1b1b1b;
 	color: #F1FFFB;
 	border-top: 1px solid #E8A897;
 	padding: 15px 0;
@@ -398,6 +410,7 @@ footer.one > .container{
 
 footer.two{
 	background-color: #E8A897;
+	background-color: black;
 	padding: 0 2%;
 }
 
@@ -405,6 +418,10 @@ footer.two > .container > p{
 	color: white;
 	text-align: center;
 	padding: 8px;
+}
+
+footer.two > .container > p > a{
+	color: #548799;
 }
 
 /* PÁGINA FUNCIONAMENTO */
@@ -433,6 +450,7 @@ section.funcionamento__banner-principal{
 
 .funcionamento__como-funciona .titulo-container{
 	color: #7D6C80;
+	color: #1b1b1b;
 }
 
 .funcionamento__como-funciona .titulo-container div{
@@ -488,6 +506,7 @@ section.contato__container{
 
 .contato__container > .titulo-container{
 	color: #7D6C80;
+	color: #1b1b1b;
 }
 
 .contato__container > .titulo-container div{
@@ -623,6 +642,7 @@ section.contato__container{
 		right: 0;
 		width: 240px;
 		background-color: #F1FFFB;
+		background-color: #f8f8ff;
 		display: inline-block;
 		text-align: center;
 		display: none;
@@ -748,9 +768,9 @@ section.contato__container{
 	/* RESPONSIVO BANNER-PRINCIPAL */
 
 	section.banner-principal{
-		background-image: url('../images/bg-principal.jpg');
+		/* background-image: url('../images/bg-principal.jpg');
 		background-size: cover;
 		background-position: center left;
-		height: 400px;
+		height: 400px; */
 	}
 }
