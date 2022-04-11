@@ -122,20 +122,43 @@ header{
 .banner-principal > .container{
 	position: absolute;
 	top: 245px;
-	left: 0px;
+	/* left: 0px; */
 	z-index: 1;
-	background-color: rgba(0,0,0,0.5);
-	width: 17em;
-	padding: 5px;
-	margin: 0 2%;
+	/* background-color: rgba(0,0,0,0.5); */
+	/* width: 17em; */
+	/* padding: 5px; */
+	/* margin: 0 2%; */
+	
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%,-40%);
+	-ms-transform: translate(-50%,-40%);
+	padding: 1rem;
+	width: 280px;
+}
+
+.banner-principal h4{
+	color: white;
+	z-index: 2;
+	font-weight: lighter;
+	/* font-size: 19px; */
+	line-height: 1.25em;
+
+	font-size: 24px;
+	text-shadow: 1px 1px 2px black, 0 0 1em #333, 0 0 0.2em #333;
 }
 
 .banner-principal h3{
 	color: white;
 	z-index: 2;
 	font-weight: lighter;
-	font-size: 19px;
+	/* font-size: 19px; */
 	line-height: 1.25em;
+
+	font-size: 38px;
+	text-shadow: 1px 1px 2px black, 0 0 1em #333, 0 0 0.2em #333;
+	margin-top: .5rem;
+	margin-bottom: 4rem;
 }
 
 .banner-principal h2{
@@ -145,6 +168,9 @@ header{
 	margin-top: 10px;
 	margin-bottom: 5px;
 	font-size: 24px;
+
+	text-shadow: 1px 1px 2px black, 0 0 1em #333, 0 0 0.2em #333;
+	margin-bottom: 1rem;
 }
 
 .banner-principal a{
@@ -157,6 +183,8 @@ header{
 	font-weight: lighter;
 	font-size: 16px;
 	line-height: 1.25em;
+
+	text-shadow: 1px 1px 2px black, 0 0 1em #333, 0 0 0.2em #333;
 }
 
 /* SECTION BANNER SECUNDÁRIO */
@@ -767,10 +795,4 @@ section.contato__container{
 
 	/* RESPONSIVO BANNER-PRINCIPAL */
 
-	section.banner-principal{
-		/* background-image: url('../images/bg-principal.jpg');
-		background-size: cover;
-		background-position: center left;
-		height: 400px; */
-	}
 }
