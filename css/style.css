@@ -107,7 +107,8 @@ header{
 /* SECTION BANNER PRINCIPAL */
 
 .banner-principal{
-	background-image: url('../images/m3.jpg');
+	background-image: url('../images/flor.jpeg');
+	background-position: center;
 	height: 400px;
 	background-size: cover;
 	background-position: center-top;
